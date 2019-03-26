@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HemenMesajSend", "DialogicNetCoreTest\HemenMesajSend.csproj", "{A19165FA-32FE-4F4F-868C-5C13701F3EEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{FC8A25C0-910C-4415-89EC-C30FFB17852B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dlgc.Data", "Dlgc.Data\Dlgc.Data.csproj", "{534F209D-DB87-47A1-BED6-3E1465C0AAAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logger", "Logger", "{DDE42A49-EBA2-4294-90DA-238D6D76FDC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkyLogger", "Logger\SkyLogger\SkyLogger.csproj", "{16857737-8F3E-468C-A288-C3C8C9AEC06A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dialogic", "Dialogic", "{65A5C87F-E1FB-49D4-9F54-47AA275C8AE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sky.Dialogic", "Dialogic\Sky.Dialogic\Sky.Dialogic.csproj", "{7D71C8B1-000F-4DC1-AD62-D16E34FBBFE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SMS", "SMS", "{95C4D444-9A7C-4C7D-9F15-04B1F04D17D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkySMS", "SMS\SkySMS\SkySMS.csproj", "{90DAB091-6A22-414E-86F9-1C03A69BB43D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A19165FA-32FE-4F4F-868C-5C13701F3EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19165FA-32FE-4F4F-868C-5C13701F3EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19165FA-32FE-4F4F-868C-5C13701F3EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19165FA-32FE-4F4F-868C-5C13701F3EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534F209D-DB87-47A1-BED6-3E1465C0AAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534F209D-DB87-47A1-BED6-3E1465C0AAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534F209D-DB87-47A1-BED6-3E1465C0AAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534F209D-DB87-47A1-BED6-3E1465C0AAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16857737-8F3E-468C-A288-C3C8C9AEC06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16857737-8F3E-468C-A288-C3C8C9AEC06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16857737-8F3E-468C-A288-C3C8C9AEC06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16857737-8F3E-468C-A288-C3C8C9AEC06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D71C8B1-000F-4DC1-AD62-D16E34FBBFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D71C8B1-000F-4DC1-AD62-D16E34FBBFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D71C8B1-000F-4DC1-AD62-D16E34FBBFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D71C8B1-000F-4DC1-AD62-D16E34FBBFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90DAB091-6A22-414E-86F9-1C03A69BB43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DAB091-6A22-414E-86F9-1C03A69BB43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DAB091-6A22-414E-86F9-1C03A69BB43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DAB091-6A22-414E-86F9-1C03A69BB43D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{534F209D-DB87-47A1-BED6-3E1465C0AAAA} = {FC8A25C0-910C-4415-89EC-C30FFB17852B}
+		{16857737-8F3E-468C-A288-C3C8C9AEC06A} = {DDE42A49-EBA2-4294-90DA-238D6D76FDC1}
+		{7D71C8B1-000F-4DC1-AD62-D16E34FBBFE5} = {65A5C87F-E1FB-49D4-9F54-47AA275C8AE6}
+		{90DAB091-6A22-414E-86F9-1C03A69BB43D} = {95C4D444-9A7C-4C7D-9F15-04B1F04D17D5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFB8ACF3-7E3F-41A4-AB12-9EF5851BB029}
+	EndGlobalSection
+EndGlobal
